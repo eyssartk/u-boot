@@ -63,12 +63,12 @@
       riscv,max-priority = <7>;
       riscv,ndev = <30>;
     };
-    debug-controller@0 {
-      compatible = "riscv,debug-013";
-      interrupts-extended = <&CPU0_intc 65535>;
-      reg = <0x0 0x0 0x0 0x1000>;
-      reg-names = "control";
-    };
+//  debug-controller@0 {
+//    compatible = "riscv,debug-013";
+//    interrupts-extended = <&CPU0_intc 65535>;
+//    reg = <0x0 0x0 0x0 0x1000>;
+//    reg-names = "control";
+//  };
     uart@10000000 {
       compatible = "ns16750", "ns16550";
       reg = <0x0 0x10000000 0x0 0x1000>;
